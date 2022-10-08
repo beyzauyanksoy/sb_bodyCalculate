@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import 'detail.dart';
+
 class Home extends StatefulWidget {
   const Home({super.key});
 
@@ -252,7 +254,7 @@ class _HomeState extends State<Home> {
                         double.parse(myControllerUzunluk.text));
                     String image = images(double.parse(myControllerKilo.text),
                         double.parse(myControllerUzunluk.text));
-                    /*   Navigator.of(context).push(
+                       Navigator.of(context).push(
                       MaterialPageRoute(
                         builder: (context) => Ibm(
                           detay: detay,
@@ -260,7 +262,7 @@ class _HomeState extends State<Home> {
                           images: image,
                         ),
                       ),
-                    ); */
+                    ); 
                   },
                   child: Container(
                     decoration: BoxDecoration(
