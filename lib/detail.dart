@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'calculate.dart';
-import 'home.dart';
+import 'home_page.dart';
 
 class Ibm extends StatefulWidget {
   const Ibm({
