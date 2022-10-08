@@ -90,7 +90,25 @@ class _IbmState extends State<Ibm> {
                 ),
               );
             },
-          )
+            child: Padding(
+              padding: const EdgeInsets.only(right: 10, left: 10, bottom: 50),
+              child: Container(
+                decoration: const BoxDecoration(
+                    color: Colors.blue,
+                    borderRadius: BorderRadius.all(Radius.circular(30))),
+                alignment: Alignment.center,
+                //width: 350,
+                height: 50,
+                child: const Text(
+                  'Start over',
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16),
+                ),
+              ),
+            ),
+          ),
         ],
       ),
     );
