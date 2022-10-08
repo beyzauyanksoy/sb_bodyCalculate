@@ -263,8 +263,8 @@ class _HomeState extends State<Home> {
                     ); */
                   },
                   child: Container(
-                    decoration: const BoxDecoration(
-                        color: Colors.blue,
+                    decoration: BoxDecoration(
+                        color: Colors.green.shade300,
                         borderRadius: BorderRadius.all(Radius.circular(30))),
                     alignment: Alignment.center,
                     width: 350,
